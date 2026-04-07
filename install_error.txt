@@ -1,0 +1,74 @@
+  error: subprocess-exited-with-error
+  
+  python setup.py bdist_wheel did not run successfully.
+  exit code: 1
+  
+  [23 lines of output]
+  D:\code\anaconda\envs\antimamba02\lib\site-packages\torch\utils\cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+  
+  
+  torch.__version__  = 2.1.1+cu118
+  
+  
+  D:\code\anaconda\envs\antimamba02\lib\site-packages\setuptools\dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+  
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+  
+          License :: OSI Approved :: BSD License
+  
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+  
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  Guessing wheel URL:  https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.1.1/causal_conv1d-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-win_amd64.whl
+  error: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for causal-conv1d
+ERROR: Could not build wheels for causal-conv1d, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+  error: subprocess-exited-with-error
+  
+  python setup.py bdist_wheel did not run successfully.
+  exit code: 1
+  
+  [23 lines of output]
+  D:\code\anaconda\envs\antimamba02\lib\site-packages\torch\utils\cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+  
+  
+  torch.__version__  = 2.1.1+cu118
+  
+  
+  D:\code\anaconda\envs\antimamba02\lib\site-packages\setuptools\dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+  
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+  
+          License :: OSI Approved :: BSD License
+  
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+  
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  Guessing wheel URL:  https://github.com/state-spaces/mamba/releases/download/v1.2.0.post1/mamba_ssm-1.2.0.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-win_amd64.whl
+  error: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for mamba-ssm
+ERROR: Could not build wheels for mamba-ssm, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
